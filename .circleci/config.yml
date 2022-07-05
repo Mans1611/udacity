@@ -27,7 +27,7 @@ jobs:
       - run : 
           name: build server side 
           command: | 
-              npm run backend:build
+              npm run frontend:deploy
       - run :
           name : DEPLOY THE APPLICATION  
           command : | 
